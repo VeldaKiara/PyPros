@@ -63,3 +63,10 @@ def get_boundaries(target, margin):
 
 low, high = get_boundaries(100, 20)
 print("Low limit: "+str(low)+", high limit: "+str(high))
+
+#global definition of variables
+current_year = 2048
+def calculate_age(birth_year):
+  age = current_year - birth_year
+  return age
+print(calculate_age(1970))
