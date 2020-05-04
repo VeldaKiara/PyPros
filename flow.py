@@ -29,3 +29,15 @@ def graduation_reqs(credits):
     return "You have enough credits to graduate!"
   
 print(graduation_reqs(120))
+
+#and combines two boolean expressions and
+#  evaluates as True if both its 
+# components are True, but False otherwise
+#and statement
+statement_one = False
+
+statement_two = True
+
+def graduation_reqs(gpa, credits):
+  if (gpa >= 2.0) and (credits >= 120):
+    return "You meet the requirements to graduate!"
