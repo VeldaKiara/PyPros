@@ -55,3 +55,10 @@ statement_two = True
 def graduation_mailer(gpa, credits):
   if (gpa >= 2.0) or (credits >= 120.0):
     return True
+#Not boolean operator . This operator is 
+# straightforward: when applied to
+# any boolean expression it reverses 
+# the boolean value. So if we have a
+#  True statement and apply a
+#  not operator we get a False statement.
+
