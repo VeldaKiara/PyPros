@@ -41,3 +41,17 @@ statement_two = True
 def graduation_reqs(gpa, credits):
   if (gpa >= 2.0) and (credits >= 120):
     return "You meet the requirements to graduate!"
+
+
+#or operator or statement
+#The boolean operator or combines 
+# two expressions into a larger expression 
+# that is True if either component is True.
+
+statement_one = True
+
+statement_two = True
+
+def graduation_mailer(gpa, credits):
+  if (gpa >= 2.0) or (credits >= 120.0):
+    return True
