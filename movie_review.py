@@ -7,7 +7,6 @@ def movie_review(rating):
   else:
     return "Outstanding!."
 
-# Uncomment these function calls to test your movie_review function:
 print(movie_review(9))
 # should print "Outstanding!"
 print(movie_review(4))
