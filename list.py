@@ -8,3 +8,5 @@ age.append(42)
 all_ages = age + [32, 41, 29]
 #adding zip
 name_and_age = zip(first_names, all_ages)
+#adding range
+ids = range(4)
