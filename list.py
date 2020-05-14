@@ -41,3 +41,10 @@ beginning = suitcase[0:4] #prints shirts to pants, first 4 elemnts
 print(beginning)
 middle =suitcase[2:4] #prints the middle elements
 print(middle)
+
+fruits = ['apple', 'banana', 'cherry', 'date']
+print(fruits[0:3])#first three elements
+#output['apple', 'banana', 'cherry']
+
+print(fruits[:3]) #also prints first 3 elements
+#output['apple', 'banana', 'cherry']
