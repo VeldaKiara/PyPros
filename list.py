@@ -19,3 +19,6 @@ print(list1_len)
 employees = ['Michael', 'Dwight', 'Jim', 'Pam', 'Ryan', 'Andy', 'Robert']
 index4 =(employees[4]) #Index to call item number.
 print(len(employees)) #length of lists.
+
+print(employees[8]) #traceback because out of range i.e indexxerror
+print(employees[6]) 
