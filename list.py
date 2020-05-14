@@ -31,3 +31,13 @@ print(len(shopping_list))
 last_element =shopping_list[-1]
 element5 = shopping_list[5]
 print(element5, last_element)
+
+#to use slicing 
+#letters[start:end], syntax
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+beginning = suitcase[0:2]
+print(beginning)
+beginning = suitcase[0:4] #prints shirts to pants, first 4 elemnts
+print(beginning)
+middle =suitcase[2:4] #prints the middle elements
+print(middle)
