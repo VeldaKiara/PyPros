@@ -68,6 +68,7 @@ addresses = ['221 B Baker St.', '42 Wallaby Way', '12 Grimmauld Place', '742 Eve
 
 # Sort addresses here:
 addresses.sort()
+print(addresses)
 
 names = ['Ron', 'Hermione', 'Harry', 'Albus', 'Sirius']
 # sort(names)
