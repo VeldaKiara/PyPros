@@ -48,3 +48,9 @@ print(fruits[0:3])#first three elements
 
 print(fruits[:3]) #also prints first 3 elements
 #output['apple', 'banana', 'cherry']
+
+print(fruits[2:]) #last  two items on the list
+#output['cherry' , 'date']
+
+print(fruits[-3:]) #counts from backwards
+#output['banana', 'cherry', 'date']
