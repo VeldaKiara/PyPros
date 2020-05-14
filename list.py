@@ -59,5 +59,10 @@ suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
 start = suitcase[:3] #first three elements
 end = suitcase[4:] #last elements
 
+#how to count the number of words or letters using count
+votes = ['Jake', 'Jake', 'Laurie', 'Laurie', 'Laurie', 'Jake', 'Jake', 'Jake', 'Laurie', 'Cassie', 'Cassie', 'Jake', 'Jake', 'Cassie', 'Laurie', 'Cassie', 'Jake', 'Jake', 'Cassie', 'Laurie']
+jake_votes = votes.count('Jake')
+print(jake_votes)
+
 
 
