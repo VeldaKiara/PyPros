@@ -54,3 +54,10 @@ print(fruits[2:]) #last  two items on the list
 
 print(fruits[-3:]) #counts from backwards
 #output['banana', 'cherry', 'date']
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+start = suitcase[:3] #first three elements
+end = suitcase[4:] #last elements
+
+
+
