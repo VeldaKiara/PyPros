@@ -22,3 +22,12 @@ print(len(employees)) #length of lists.
 
 print(employees[8]) #traceback because out of range i.e indexxerror
 print(employees[6]) 
+
+#use the index -1 to select the last item of a list, 
+# even when we don’t know how many elements are in a list.
+
+shopping_list = ['eggs', 'butter', 'milk', 'cucumbers', 'juice', 'cereal']
+print(len(shopping_list))
+last_element =shopping_list[-1]
+element5 = shopping_list[5]
+print(element5, last_element)
