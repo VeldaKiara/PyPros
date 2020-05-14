@@ -71,8 +71,7 @@ addresses.sort()
 print(addresses)
 
 names = ['Ron', 'Hermione', 'Harry', 'Albus', 'Sirius']
-# sort(names)
-
+names.sort()
 
 cities = ['London', 'Paris', 'Rome', 'Los Angeles', 'New York']
 
