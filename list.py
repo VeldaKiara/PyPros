@@ -10,3 +10,7 @@ all_ages = age + [32, 41, 29]
 name_and_age = zip(first_names, all_ages)
 #adding range
 ids = range(4)
+
+list1 = range(2, 20, 3)
+list1_len = len(list1)
+print(list1_len)
