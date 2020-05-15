@@ -86,3 +86,5 @@ inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dres
 inventory_len = len(inventory)
 first = inventory[0]#selection of first element
 last = inventory[-1]#selection of last item in the list
+inventory_2_6 = inventory[2:6] #2nd to 5th element
+ 
