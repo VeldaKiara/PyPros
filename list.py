@@ -77,3 +77,9 @@ cities = ['London', 'Paris', 'Rome', 'Los Angeles', 'New York']
 
 sorted_cities = cities.sort()
 
+#using sorted sorted to sort items instead of sort
+games = ['Portal', 'Minecraft', 'Pacman', 'Tetris', 'The Sims', 'Pokemon']
+games_sorted = sorted(games)
+print(games_sorted)
+
+
