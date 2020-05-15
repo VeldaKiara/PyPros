@@ -85,3 +85,4 @@ print(games_sorted)
 inventory = ['twin bed', 'twin bed', 'headboard', 'queen bed', 'king bed', 'dresser', 'dresser', 'table', 'table', 'nightstand', 'nightstand', 'king bed', 'king bed', 'twin bed', 'twin bed', 'sheets', 'sheets', 'pillow', 'pillow']
 inventory_len = len(inventory)
 first = inventory[0]#selection of first element
+last = inventory[-1]#selection of last item in the list
