@@ -21,3 +21,7 @@ for breed in dog_breeds:
 sport_games = ['football', 'football - American', 'hockey', 'baseball', 'cricket']
 for sport in sport_games:
   print(sport)
+  
+promise = "I will not chew gum in class" 
+for i in range(5): #using range to print promise 5 times
+  print(promise)
