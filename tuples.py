@@ -83,6 +83,8 @@ for single in single_digits:
       print(single)
       squares.append(single ** 2) #squares numbers
       print(squares)
+      cubes=[single ** 3 for single in single_digits]
+      print(cubes)
       
       
       
