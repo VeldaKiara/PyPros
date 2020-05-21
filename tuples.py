@@ -41,3 +41,4 @@ for dog in dog_breeds_available_for_adoption:
   print(dog)
   if dog == dog_breed_I_want:
     print("They have the dog I want!")
+    break
