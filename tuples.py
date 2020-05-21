@@ -27,3 +27,10 @@ for i in range(5): #using range to print promise 5 times
   print(promise)
   
 #A loop that never terminates is called an infinite loop.
+students_period_A = ["Alex", "Briana", "Cheri", "Daniele"]
+students_period_B = ["Dora", "Minerva", "Alexa", "Obie"]
+
+for students in students_period_A: #goes through a and appends to b
+  students_period_B.append(students)
+  print(students)
+  
