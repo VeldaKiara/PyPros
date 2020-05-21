@@ -50,3 +50,7 @@ ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
       if age < 21:
     continue
   print(age)
+  
+#while loop
+all_students = ["Alex", "Briana", "Cheri", "Daniele", "Dora", "Minerva", "Alexa", "Obie", "Arius", "Loki"]
+students_in_poetry = []
