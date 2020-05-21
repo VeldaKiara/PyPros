@@ -57,3 +57,6 @@ students_in_poetry = []
 while len(students_in_poetry) < 6:
   students_in_poetry.append(all_students.pop()) #everytime a student is popped s/he is appended
   print(students_in_poetry)
+  
+#nested loops
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
