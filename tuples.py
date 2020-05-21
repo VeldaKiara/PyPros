@@ -65,5 +65,7 @@ for location in sales_data:
       for scoops in location:
         scoops_sold += scoops
         print(scoops_sold)
-      
+
+#list compressions
+     
     
