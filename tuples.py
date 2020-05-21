@@ -67,5 +67,5 @@ for location in sales_data:
         print(scoops_sold)
 
 #list compressions
-     
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]   
     
