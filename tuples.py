@@ -34,3 +34,8 @@ for students in students_period_A: #goes through a and appends to b
   students_period_B.append(students)
   print(students)
   
+dog_breeds_available_for_adoption = ['french_bulldog', 'dalmatian', 'shihtzu', 'poodle', 'collie']
+dog_breed_I_want = 'dalmatian'
+
+for dog in dog_breeds_available_for_adoption:
+  print(dog)
