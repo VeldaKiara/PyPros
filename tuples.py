@@ -25,3 +25,5 @@ for sport in sport_games:
 promise = "I will not chew gum in class" 
 for i in range(5): #using range to print promise 5 times
   print(promise)
+  
+#A loop that never terminates is called an infinite loop.
