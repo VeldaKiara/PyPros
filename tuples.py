@@ -75,3 +75,10 @@ print(can_ride_coaster)
 celsius = [0, 10, 15, 32, -5, 27, 3]
 fahrenheit = [temp*(9/5) + 32 for temp in celsius] #converting temp to fahrenheit from celsius
 print(fahrenheit)
+
+
+single_digits=[0,1,2,3,4,5,6,7,8,9]
+for single in single_digits:
+  print(single)
+  
+  
