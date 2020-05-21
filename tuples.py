@@ -54,3 +54,6 @@ ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
 #while loop
 all_students = ["Alex", "Briana", "Cheri", "Daniele", "Dora", "Minerva", "Alexa", "Obie", "Arius", "Loki"]
 students_in_poetry = []
+while len(students_in_poetry) < 6:
+  students_in_poetry.append(all_students.pop()) #everytime a student is popped s/he is appended
+  print(students_in_poetry)
