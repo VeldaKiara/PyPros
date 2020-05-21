@@ -72,3 +72,5 @@ can_ride_coaster = [ height for height in heights if height > 161]
 #the first heightis added to the second height, heights the name of list and addition of the if statement
 print(can_ride_coaster)
     
+celsius = [0, 10, 15, 32, -5, 27, 3]
+
