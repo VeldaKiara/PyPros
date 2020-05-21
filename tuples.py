@@ -60,3 +60,4 @@ while len(students_in_poetry) < 6:
   
 #nested loops
 sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+
