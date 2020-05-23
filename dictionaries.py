@@ -61,7 +61,11 @@ plays = {
   key:value for key, value in zip(songs, playcounts)
 }
 plays["Purple Haze"] = 1
+
 plays.update({
   "Respect" : 94
 })
 print(plays)
+library = {"The Best Songs": plays, "Sunday Feelings": {}}
+
+print(library)
