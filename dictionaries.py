@@ -25,3 +25,4 @@ children = {"von Trapp":["Johannes", "Rosmarie", "Eleonore"], "Corleone":["Sonny
 my_empty_dictionary = {}
 
 animals_in_zoo = {}
+animals_in_zoo["zebras"] = 8
