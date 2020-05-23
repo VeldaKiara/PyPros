@@ -16,5 +16,6 @@ translations = {
   'bread': 'bass',
   'friend': 'mellon',
   'horse': 'roch',
-
 }
+
+#keys must always be unchangeable, hashable data types, like numbers or strings.
