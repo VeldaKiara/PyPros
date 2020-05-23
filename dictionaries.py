@@ -153,3 +153,12 @@ print(users)
 print(lessons)
 
 #.values() method that returns a dict_values object just like .keys() for key values
+num_exercises = {
+    "functions": 10, 
+    "syntax": 13, 
+    "control flow": 15, 
+    "loops": 22, 
+    "lists": 19, 
+    "classes": 18, 
+    "dictionaries": 18
+    }
