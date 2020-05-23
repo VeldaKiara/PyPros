@@ -107,4 +107,4 @@ stack_id = user_ids.get("superStackSmash", 100000)
 print(tc_id)
 print(stack_id)
 
-#deleting  a key 
+#deleting  a key .pop()
