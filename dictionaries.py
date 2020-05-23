@@ -37,7 +37,7 @@ print(user_ids)
 
 #overwriting elemants
 oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
-oscar_winners.update({
-  "supporting Actress" : "Viola Davis",
-}) #updates
+#oscar_winners.update({
+  #"supporting Actress" : "Viola Davis",
+#}) updates only iused in multiple values
 print(oscar_winners)
