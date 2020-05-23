@@ -167,4 +167,13 @@ total_exercises = 0
 for exercise in num_exercises.values():
   total_exercises += exercise
   print(total_exercises)
+  
 #to get both the keys and the values use the .items() method.
+pct_women_in_occupation = {
+    "CEO": 28, 
+    "Engineering Manager": 9, 
+    "Pharmacist": 58, 
+    "Physician": 40, 
+    "Lawyer": 37, 
+    "Aerospace Engineer": 9
+    }
