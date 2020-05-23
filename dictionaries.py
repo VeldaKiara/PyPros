@@ -162,3 +162,8 @@ num_exercises = {
     "classes": 18, 
     "dictionaries": 18
     }
+total_exercises = 0
+#iterating through it and adding exercise to total exercise
+for exercise in num_exercises.values():
+  total_exercises += exercise
+  print(total_exercises)
