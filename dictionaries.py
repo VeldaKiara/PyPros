@@ -77,3 +77,5 @@ zodiac_elements = {
     "earth": ["Taurus", "Virgo", "Capricorn"], 
     "air":["Gemini", "Libra", "Aquarius"]
     }
+print(zodiac_elements["earth"])
+print(zodiac_elements["fire"]) #getting values from keys in dict
