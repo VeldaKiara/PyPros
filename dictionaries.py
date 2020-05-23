@@ -29,3 +29,5 @@ animals_in_zoo["zebras"] = 8
 animals_in_zoo["monkeys"] = 12
 animals_in_zoo["dinosaurs"] = 0
 print(animals_in_zoo)
+
+#to add multiple key : value pairs to a dictionary at once, we can use the .update() method.
