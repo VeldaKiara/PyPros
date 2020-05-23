@@ -207,3 +207,8 @@ for occupation, percentage in pct_women_in_occupation.items():
         }
 spread = {}
 spread["past"] = tarot.pop(13)
+spread["present"] = tarot.pop(22)
+spread["future"] = tarot.pop(10)
+
+for time, card in spread.items():
+  print("Your " + str(time)+ " is the " + str(card)+ " card. " ) 
