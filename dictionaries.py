@@ -152,3 +152,4 @@ lessons = num_exercises.keys() #gets keys from num_exercises
 print(users)
 print(lessons)
 
+#.values() method that returns a dict_values object just like .keys() for key values
