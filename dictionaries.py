@@ -146,3 +146,5 @@ num_exercises = {
     "dictionaries": 18
     }
 
+users = user_ids.keys() #gets keys form userid
+lessons = num_exercises.keys() #gets keys from num_exercises
