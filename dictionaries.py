@@ -83,3 +83,5 @@ print(zodiac_elements["fire"]) #getting values from keys in dict
 #avoiding key errors
 zodiac_elements['energy'] = "Not a Zodiac element"
 print(zodiac_elements["energy"])
+
+
