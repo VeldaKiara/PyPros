@@ -41,4 +41,5 @@ oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "B
   #"supporting Actress" : "Viola Davis",
 #}) updates only iused in multiple values
 oscar_winners["Supporting Actress"] = "Viola Davis"
+oscar_winners["Best Picture"] = "Moonlight"
 print(oscar_winners)
