@@ -40,4 +40,5 @@ oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "B
 #oscar_winners.update({
   #"supporting Actress" : "Viola Davis",
 #}) updates only iused in multiple values
+oscar_winners["Supporting Actress"] = "Viola Davis"
 print(oscar_winners)
