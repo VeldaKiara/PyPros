@@ -26,3 +26,4 @@ my_empty_dictionary = {}
 
 animals_in_zoo = {}
 animals_in_zoo["zebras"] = 8
+animals_in_zoo["monkeys"] = 12
