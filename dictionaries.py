@@ -70,4 +70,10 @@ library = {"The Best Songs": plays, "Sunday Feelings": {}}
 
 print(library)
 
-#getting a key
+#getting a key in a dict
+zodiac_elements = {
+    "water": ["Cancer", "Scorpio", "Pisces"], 
+    "fire": ["Aries", "Leo", "Sagittarius"], 
+    "earth": ["Taurus", "Virgo", "Capricorn"], 
+    "air":["Gemini", "Libra", "Aquarius"]
+    }
