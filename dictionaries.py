@@ -79,3 +79,6 @@ zodiac_elements = {
     }
 print(zodiac_elements["earth"])
 print(zodiac_elements["fire"]) #getting values from keys in dict
+
+#avoiding key errors
+
