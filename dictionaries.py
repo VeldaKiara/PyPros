@@ -118,3 +118,4 @@ available_items = {
 health_points = 20
 
 health_points += available_items.pop("stamina grains", 0)
+health_points += available_items.pop("power stew", 0)
