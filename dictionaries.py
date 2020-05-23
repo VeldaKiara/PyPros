@@ -87,3 +87,8 @@ print(zodiac_elements["energy"])
 #Try/Except to Get a Key
 caffeine_level = {"espresso": 64, "chai": 40, "decaf": 0, "drip": 120}
 
+key_to_check = "matcha"
+try:
+  print(caffeine_level[key_to_check])
+except KeyError:
+  print("unknown Caffeine level")
