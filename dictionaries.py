@@ -148,3 +148,7 @@ num_exercises = {
 
 users = user_ids.keys() #gets keys form userid
 lessons = num_exercises.keys() #gets keys from num_exercises
+
+print(users)
+print(lessons)
+
