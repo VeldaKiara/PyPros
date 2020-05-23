@@ -123,3 +123,9 @@ health_points += available_items.pop("mystic bread", 0)
 
 print(available_items)
 print(health_points)
+
+#.keys() method that returns a dict_keys object.
+#dict_keys object is a view object, which provides a
+#  look at the current state of the dicitonary,
+#  without the user being able to modify anything.
+
