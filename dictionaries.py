@@ -92,3 +92,5 @@ try:
   print(caffeine_level[key_to_check])
 except KeyError:
   print("unknown Caffeine level")
+
+#using .get() method
