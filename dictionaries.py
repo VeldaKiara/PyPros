@@ -101,3 +101,8 @@ user_ids = {
     "lyleLoop": 102931, 
     "keysmithKeith": 129384
     }
+tc_id = user_ids.get("teraCoder", 100000)
+stack_id = user_ids.get("superStackSmash", 100000)
+
+print(tc_id)
+print(stack_id)
