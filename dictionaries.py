@@ -43,3 +43,7 @@ oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "B
 oscar_winners["Supporting Actress"] = "Viola Davis"
 oscar_winners["Best Picture"] = "Moonlight"
 print(oscar_winners)
+
+#list comprehensions
+drinks = ["espresso", "chai", "decaf", "drip"]
+caffeine = [64, 40, 0, 120]
