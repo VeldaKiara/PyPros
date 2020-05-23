@@ -205,3 +205,5 @@ for occupation, percentage in pct_women_in_occupation.items():
           21: "The World",
           22: "The Fool"
         }
+spread = {}
+spread["past"] = tarot.pop(13)
