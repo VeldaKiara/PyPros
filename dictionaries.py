@@ -19,3 +19,4 @@ translations = {
 }
 
 #keys must always be unchangeable, hashable data types, like numbers or strings.
+children = {"von Trapp":["Johannes", "Rosmarie", "Eleonore"], "Corleone":["Sonny", "Fredo", "Michael"]}
