@@ -85,4 +85,5 @@ zodiac_elements['energy'] = "Not a Zodiac element"
 print(zodiac_elements["energy"])
 
 #Try/Except to Get a Key
+caffeine_level = {"espresso": 64, "chai": 40, "decaf": 0, "drip": 120}
 
