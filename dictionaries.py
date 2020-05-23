@@ -54,3 +54,5 @@ drinks_to_caffeine = {key:value for key, value in zipped_drinks}
 print(drinks_to_caffeine)
 
 #music streaming
+songs = ["Like a Rolling Stone", "Satisfaction", "Imagine", "What's Going On", "Respect", "Good Vibrations"]
+playcounts = [78, 29, 44, 21, 89, 5]
