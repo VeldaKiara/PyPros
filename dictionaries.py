@@ -23,3 +23,5 @@ children = {"von Trapp":["Johannes", "Rosmarie", "Eleonore"], "Corleone":["Sonny
 
 #We can create an empty dictionary when we plan to fill it later based on some other input
 my_empty_dictionary = {}
+
+animals_in_zoo = {}
