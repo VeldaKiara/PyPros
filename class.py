@@ -68,3 +68,12 @@ isabelles_ices = Store()
 
 alternative_rocks.store_name = "Alternative Rocks"
 isabelles_ices.store_name = "Isabelle's Ices"
+
+#Attribute functions
+how_many_s = [{'s': False}, "sassafrass", 18, ["a", "c", "s", "d", "s"]]
+
+for element in how_many_s:
+  if hasattr(element, "count"):
+    print(element.count("s"))
+    
+    
