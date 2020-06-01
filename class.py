@@ -16,7 +16,7 @@ class Rules:
     
 problem = Rules()
 print(problem.washing_brushes())
-
+#addition of more than one param i.e more than self
 class DistanceConverter:
       kms_in_a_mile = 1.609
       def how_many_kms(self, miles):
@@ -26,3 +26,18 @@ converter = DistanceConverter()
 kms_in_5_miles = converter.how_many_kms(5)
 print(kms_in_5_miles)
 # prints "8.045"
+
+class Circle:
+    pi = 3.14 #def class
+  
+    def area(self, radius): #def method
+        return Circle.pi * radius ** 2
+  
+circle = Circle()
+pizza_area = circle.area(12 / 2)
+teaching_table_area = circle.area(36 / 2)
+round_room_area = circle.area(11460 / 2)
+
+print(pizza_area)
+print(teaching_table_area)
+print(round_room_area)
