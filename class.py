@@ -41,3 +41,16 @@ round_room_area = circle.area(11460 / 2)
 print(pizza_area)
 print(teaching_table_area)
 print(round_room_area)
+
+#dunder methods/constructors
+# __init__ method  is used to initialize a newly created object.
+#  It is called every time the class is instantiated.
+class Circle:
+    pi = 3.14
+  
+  # constructor 
+    def __init__(self, diameter):
+        print("New circle with diameter: {diameter}".format(diameter=diameter))
+    
+teaching_table = Circle(36)
+print(teaching_table)
