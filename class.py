@@ -76,4 +76,20 @@ for element in how_many_s:
   if hasattr(element, "count"):
     print(element.count("s"))
     
-    
+  
+  #addition of a class that uses instance variables in a search engine
+  class SearchEngineEntry:
+    secure_prefix = "https://"
+    def __init__(self, url):
+      self.url = url
+
+    def secure(self):
+      return "{prefix}{site}".format(prefix=self.secure_prefix, site=self.url)
+
+codecademy = SearchEngineEntry("www.codecademy.com")
+
+print(codecademy.secure())
+# prints "https://www.codecademy.com"
+wikipedia = SearchEngineEntry("www.wikipedia.org")
+print(wikipedia.secure())
+# prints "https://www.wikipedia.org"
