@@ -114,3 +114,19 @@ print(medium_pizza.circumference())
 print(teaching_table.circumference())
 print(round_room.circumference())
 
+#We can use the dir() function to investigate an 
+# object’s attributes at runtime. dir() is short for
+#  directory and offers an organized presentation
+#  of object attributes.
+
+class FakeDict:
+       pass
+fake_dict = FakeDict()
+fake_dict.attribute = "Cool"
+
+dir(fake_dict)
+#functions are also objects
+print(dir(5))
+def this_function_is_an_object():
+   return "happy"
+print(dir(this_function_is_an_object))
