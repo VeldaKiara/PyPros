@@ -129,3 +129,9 @@ class LawFirm:
         return lawyer in self.lawyers
     
 d_and_p = LawFirm("Injury", ["Donelli", "Paderewski"])
+
+#
+class SortedList(list): #inherits from the built-in type list.
+    def append(self, value): #Overwrite the append method
+        super().append(value) # get SortedList to behave like a normal list when calling the .append() method
+        self.sort() #sorting the list
