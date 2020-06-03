@@ -88,3 +88,30 @@ class HomeInsurance(InsurancePolicy): #subclass
   def get_rate(self): #method to get rate
     return self.price_of_insured_item * .00005
 
+#polymorphism used to describe the same syntax 
+# doing different actions depending on the type of data.
+
+a_list = [1, 18, 32, 12]
+a_dict = {'value': True}
+a_string = "Polymorphism is cool!"
+
+len(a_list)
+len(a_dict)
+len(a_string)
+
+class Atom:
+    def __init__(self, label):
+        self.label = label
+    
+    def __add__(self, other): #adds both molecules and atoms
+        return Molecule([self, other])
+    
+class Molecule:
+  def __init__(self, atoms):
+    if type(atoms) is list:
+	    self.atoms = atoms
+      
+sodium = Atom("Na")
+chlorine = Atom("Cl")
+salt = Molecule([sodium, chlorine])
+# salt = sodium + chlorine
