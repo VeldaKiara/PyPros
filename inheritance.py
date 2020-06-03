@@ -69,5 +69,22 @@ class SpecialPotatoSalad(PotatoSalad):
   def __init__(self, potatoes, celery, onions): #creating  a constructor that takes in the same args
     super().__init__(potatoes, celery, onions) #invokes parents class method
     self.raisins = 40
+
+#interfaces
+#When two classes have the same method names and attributes, 
+# we say they implement the same interface.
+#  An interface in Python usually refers to 
+# the names of the methods and the arguments they take.
+
+class InsurancePolicy: #superclass
+    def __init__(self, price_of_item):
+        self.price_of_insured_item = price_of_item
     
+class VehicleInsurance(InsurancePolicy): #subclass
+  def get_rate(self): #method to get rate
+    return self.price_of_insured_item * .001
+
+class HomeInsurance(InsurancePolicy): #subclass
+  def get_rate(self): #method to get rate
+    return self.price_of_insured_item * .00005
 
