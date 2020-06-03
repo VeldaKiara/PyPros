@@ -33,3 +33,23 @@ candle_shop.buy('blue')
 
 # This should raise OutOfStock:
 candle_shop.buy('green')
+
+#overriding methods
+#An overridden method is one that has a different definition from its parent class
+class Message:
+    def __init__(self, sender, recipient, text):
+        self.sender = sender
+        self.recipient = recipient
+        self.text = text
+
+class User:
+  def __init__(self, username):
+    self.username = username
+    
+  def edit_message(self, message, new_text):
+    if message.sender == self.username:
+      message.text = new_text
+      
+class Admin(User): #overiding of admin to edit message
+  def edit_message(self, message, new_text):
+    message.text = new_text
