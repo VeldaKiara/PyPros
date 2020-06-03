@@ -157,3 +157,34 @@ round_room = Circle(11460)
 print(medium_pizza)
 print(teaching_table)
 print(round_room)
+
+
+class Student: #student class
+    def __init__(self, name, year): #constructor/dunder method
+      self.name = name  #attributes 
+      self.year = year
+      self.grades = []
+  
+    def add_grade(self, grade):
+      if type(grade) is Grade:
+        self.grades.append(grade)
+    def get_average(self, average):
+      average = sum(self.grades)/len(self.grades)
+      self.average = average   
+
+class Grade:
+  minimum_passing = 65
+  
+  def __init__(self, score): #constructor 
+    self.score = score
+  def grade(self, grade):
+    if grade >= minimum_passing:
+      print("You have a passed.")
+      self.grades.append(grade)
+   
+#instance variables    
+roger = Student("Roger van der Weyden", 10)
+sandro = Student("Sandro Botticelli", 12)
+pieter = Student("Pieter Bruegel the Elder", 8)
+
+pieter.add_grade(Grade(100))
