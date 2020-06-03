@@ -53,3 +53,21 @@ class User:
 class Admin(User): #overiding of admin to edit message
   def edit_message(self, message, new_text):
     message.text = new_text
+    
+#super() gives us a proxy object. 
+# With this proxy object, we can invoke the 
+# method of an object’s parent class (also called its superclass).
+# We call the required function as a method on super():
+
+class PotatoSalad:
+    def __init__(self, potatoes, celery, onions):
+        self.potatoes = potatoes
+        self.celery = celery
+        self.onions = onions
+        
+class SpecialPotatoSalad(PotatoSalad):
+  def __init__(self, potatoes, celery, onions): #creating  a constructor that takes in the same args
+    super().__init__(potatoes, celery, onions) #invokes parents class method
+    self.raisins = 40
+    
+
