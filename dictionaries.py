@@ -212,3 +212,12 @@ spread["future"] = tarot.pop(10)
 
 for time, card in spread.items():
   print("Your " + str(time)+ " is the " + str(card)+ " card. " ) 
+
+
+#challenge
+fib = {1: 1, 2: 1, 3: 2, 4: 3}
+print(fib.get(4, 0) + fib.get(7, 5))
+#output is 8
+'''the get(4,0) tries to fetch the value associated with key 4, and if that key is not found, returns 0. In this case, there's a value for key 4, which is 3, thus 3 is returned.
+Similarly, get(7,5) looks for key 7 into the dictionary. But there's no such key, and then the default value 5 is returned.
+Now do the math: 3 + 5.'''
